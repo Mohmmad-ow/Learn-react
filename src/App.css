@@ -60,3 +60,25 @@
   padding: 1rem;
   margin: auto 0;
 }
+
+.faq-table {
+  padding: 30px;
+  border-radius: 45px;
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid rgb(197, 184, 184)
+}
+
+.faq-q-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.faq-a-hide {
+  display: none;
+}
+.faq-div {
+  padding: 20px 0;
+}
