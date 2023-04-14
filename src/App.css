@@ -41,6 +41,8 @@
   color: #888;
 }
 
+/* carousel component */
+
 .carousel {
   display: flex;
   flex-direction: row;
@@ -61,6 +63,9 @@
   margin: auto 0;
 }
 
+
+/* FAQ component */
+
 .faq-table {
   padding: 30px;
   border-radius: 45px;
@@ -68,6 +73,7 @@
   margin: 0 auto;
   border: 1px solid rgb(197, 184, 184)
 }
+
 
 .faq-q-sec {
   display: flex;
@@ -81,4 +87,79 @@
 }
 .faq-div {
   padding: 20px 0;
+}
+
+.under {
+  text-decoration: underline;
+}
+
+/* Quotes component */
+
+
+
+.quote-data {
+  padding: 2rem;
+  border: 2px solid #646cffaa;
+  border-radius: 45px;
+}
+
+.quote-button {
+  margin-top: 24px;
+}
+
+
+/* Shopping list */
+
+
+.shoppingList-con {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.shoppingList-div {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  justify-items: center;
+  width: 100%;
+}
+
+.shoppingList-div > * {
+  width: 100%;
+}
+
+.shoppingList-div > ol {
+  padding:0;
+}
+
+.add-form {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.add-btn {
+  padding: 4px 8px;
+}
+
+
+
+.item-li {
+  padding: 12px 0;
+  border-bottom: 2px solid #646cffaa ;
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.item-text {
+  font-size: 2rem;
+  color: #646cffaa;
+  padding: 8px;
+}
+
+.item-btn {
+  height: 50%;
+  margin: auto 0;
+  padding: 4px 8px;
 }
