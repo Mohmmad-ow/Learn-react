@@ -163,3 +163,79 @@
   margin: auto 0;
   padding: 4px 8px;
 }
+
+/* Github search user component */
+
+.form {
+  display: flex;
+  gap: calc(8px*12);
+  justify-content: center;
+  align-items: center;
+}
+
+.form-btn {
+  padding: 1rem;
+ 
+}
+
+.form-text {
+  padding: 1rem;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+/* display users */
+
+.users-div {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 24px;
+}
+
+.results-text {
+  text-align: left;
+}
+
+.user-img {
+  width: 100px;
+  height: 100px;
+}
+.user-div {
+  border: 1px solid #000;
+  padding: 12px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-subdiv {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-link-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* Video Viewer */
+
+.videos-radio {
+  display: flex;
+  gap: 16px;
+  padding: 50px 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.videos {
+  width: 500px;
+  height: 400px;
+}

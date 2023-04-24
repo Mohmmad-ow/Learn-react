@@ -1,8 +1,6 @@
 import { useState } from 'react'
 
 
-
-
 function FAQ({question, answer}) {
     const [isToggled, setIsToggled] = useState(false)
   
